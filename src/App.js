@@ -1,12 +1,17 @@
 import './App.css';
+import styled from "styled-components"
 import HomePageCompound from './compounds/HomePageCompound';
 
 function App() {
   return (
-    <div className="App">
+    <Wrapper className="App">
       <HomePageCompound />
-    </div>
+    </Wrapper>
   );
 }
+
+export const Wrapper = styled.div`
+  background-image: url('./img/bg.png');
+`
 
 export default App;
