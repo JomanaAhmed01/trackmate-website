@@ -1,5 +1,6 @@
 .App {
-  
+  background-color: #222322;
+  overflow-x: hidden;
 }
 
 .App-logo {
