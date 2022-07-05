@@ -11,7 +11,7 @@ function App() {
 }
 
 export const Wrapper = styled.div`
-  background-image: url('./img/bg.png');
+  
 `
 
 export default App;
