@@ -1,11 +1,13 @@
 import React from 'react';
 import styled from "styled-components"
-import Navbar from '../components/HomePage/Navbar';
+import Navbar from '../components/HomePage/Navbar'
+import DailyRoutineHeader from '../components/HomePage/DailyRoutineHeader'
 
 function HomePageCompound() {
   return (
     <Wrapper>
       <Navbar />
+      <DailyRoutineHeader />
     </Wrapper>
   );
 }
