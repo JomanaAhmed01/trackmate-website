@@ -38,6 +38,7 @@ export const Wrapper = styled.div`
   width: 90%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 320px;
 `
 
 export const LogoWrapper = styled.div`
