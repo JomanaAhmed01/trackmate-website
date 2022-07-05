@@ -2,7 +2,7 @@ import React from 'react';
 import styled from "styled-components"
 import Navbar from '../components/HomePage/Navbar'
 import DailyRoutineHeader from '../components/HomePage/DailyRoutineHeader'
-import WorkOutTrainingHeader from '../components/HomePage/WorkOutTrainingHeader'
+import WorkOutTrackingHeader from '../components/HomePage/WorkOutTrackingHeader'
 
 function HomePageCompound() {
   return (
@@ -12,7 +12,7 @@ function HomePageCompound() {
         <DailyRoutineHeader />
       </HeaderWrapper>
 
-      <WorkOutTrainingHeader />
+      <WorkOutTrackingHeader />
     </Wrapper>
   );
 }
