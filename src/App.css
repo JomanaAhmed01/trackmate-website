@@ -1,6 +1,7 @@
 .App {
-  background-color: #222322;
+  /* background-color: #222322; */
   overflow-x: hidden;
+  background-image: url('../public/img/bg.png');
 }
 
 .App-logo {
